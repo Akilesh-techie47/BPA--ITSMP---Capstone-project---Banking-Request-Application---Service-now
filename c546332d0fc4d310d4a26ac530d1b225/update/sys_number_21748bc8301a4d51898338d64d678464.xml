@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>21748bc8301a4d51898338d64d678464</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_number_21748bc8301a4d51898338d64d678464</sys_update_name>
+    <category>x_2220006_bankin_0_request</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>BSR</prefix>
+  </sys_number>
+</record_update>

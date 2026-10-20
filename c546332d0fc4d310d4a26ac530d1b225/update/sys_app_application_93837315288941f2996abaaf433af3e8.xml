@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>93837315288941f2996abaaf433af3e8</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_app_application_93837315288941f2996abaaf433af3e8</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description>Banking customer service requests, approvals, tracking and reporting</description>
+    <device_type>browser</device_type>
+    <hint>Manage banking service requests, approvals, and tracking</hint>
+    <name/>
+    <order>100</order>
+    <roles/>
+    <title>Banking Service Requests</title>
+  </sys_app_application>
+</record_update>
