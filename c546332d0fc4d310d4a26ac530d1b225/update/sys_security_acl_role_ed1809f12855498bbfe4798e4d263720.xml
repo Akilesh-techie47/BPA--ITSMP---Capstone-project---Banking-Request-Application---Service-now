@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ed1809f12855498bbfe4798e4d263720</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_security_acl_role_ed1809f12855498bbfe4798e4d263720</sys_update_name>
+    <sys_name>x_2220006_bankin_0_request.x_2220006_bankin_0.banking_customer</sys_name>
+    <sys_security_acl>c79c3ea2b70141ebb2c77d8b1f8e7f0c</sys_security_acl>
+    <sys_user_role name="x_2220006_bankin_0.banking_customer">b3939c2c5c4b4d9bbe2cac0dad8694ee</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

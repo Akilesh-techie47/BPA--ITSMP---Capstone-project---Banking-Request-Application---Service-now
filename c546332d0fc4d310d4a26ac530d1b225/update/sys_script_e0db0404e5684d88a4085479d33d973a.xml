@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e0db0404e5684d88a4085479d33d973a</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_script_e0db0404e5684d88a4085479d33d973a</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>false</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_2220006_bankin_0_request</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition>stateVALCHANGES</filter_condition>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Validate State Transition</name>
+    <order>50</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[(function validateStateTransition(current, previous) {
+    var newState = current.getValue('state');
+    var oldState = previous.getValue('state');
+
+    if (newState === oldState) return;
+
+    // Only branch_manager can approve or reject
+    if ((newState === 'approved' || newState === 'rejected') && !gs.hasRole('x_2220006_bankin_0.branch_manager') && !gs.hasRole('admin')) {
+        gs.addErrorMessage('Only a Branch Manager can approve or reject requests');
+        current.setValue('state', oldState);
+    }
+
+    // Only branch_officer or branch_manager can set to completed
+    if (newState === 'completed' && !gs.hasRole('x_2220006_bankin_0.branch_officer') && !gs.hasRole('x_2220006_bankin_0.branch_manager') && !gs.hasRole('admin')) {
+        gs.addErrorMessage('Only Branch Officers or Managers can complete requests');
+        current.setValue('state', oldState);
+    }
+
+    // Prevent customers from changing state at all
+    if (gs.hasRole('x_2220006_bankin_0.banking_customer') && !gs.hasRole('x_2220006_bankin_0.branch_officer') && !gs.hasRole('x_2220006_bankin_0.branch_manager') && !gs.hasRole('admin')) {
+        if (newState !== oldState) {
+            gs.addErrorMessage('You do not have permission to change the request state');
+            current.setValue('state', oldState);
+        }
+    }
+})(current, previous);
+]]></script>
+    <sys_name>Validate State Transition</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>before</when>
+  </sys_script>
+</record_update>

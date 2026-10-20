@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>912ff428ba3b47be94df95b87c9974bb</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_security_acl_role_912ff428ba3b47be94df95b87c9974bb</sys_update_name>
+    <sys_name>x_2220006_bankin_0_request.kyc_verified.x_2220006_bankin_0.branch_officer</sys_name>
+    <sys_security_acl>89c9128f4cc94c4d8ca739fc8c761979</sys_security_acl>
+    <sys_user_role name="x_2220006_bankin_0.branch_officer">d5a63f4f3941488e847ec0e3314c4741</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

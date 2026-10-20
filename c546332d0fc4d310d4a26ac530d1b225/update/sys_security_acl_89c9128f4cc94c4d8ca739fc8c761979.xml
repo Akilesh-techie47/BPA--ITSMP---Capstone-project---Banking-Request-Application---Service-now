@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>89c9128f4cc94c4d8ca739fc8c761979</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_security_acl_89c9128f4cc94c4d8ca739fc8c761979</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_2220006_bankin_0_request.kyc_verified</name>
+    <operation display_value="write">write</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_2220006_bankin_0_request.kyc_verified</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>f6d758b0eaa14aac9eca7be4fc8d40af</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_security_acl_f6d758b0eaa14aac9eca7be4fc8d40af</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_2220006_bankin_0_request.approval_comments</name>
+    <operation display_value="write">write</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_2220006_bankin_0_request.approval_comments</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>
