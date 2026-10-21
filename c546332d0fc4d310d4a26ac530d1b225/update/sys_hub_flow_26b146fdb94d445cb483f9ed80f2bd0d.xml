@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>timeFromCreateToActivate=16364000</attributes>
+        <attributes>timeFromCreateToActivate=17318000</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -23,7 +23,7 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>d04a38390fccd310d4a26ac530d1b25f</remote_trigger_id>
+        <remote_trigger_id>d6dd30310f001710d4a26ac530d1b218</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26b146fdb94d445cb483f9ed80f2bd0d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Notify Assigned Officer on New Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_update_name>sys_hub_flow_26b146fdb94d445cb483f9ed80f2bd0d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:21</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:23:03</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-21 00:07:20</sys_created_on>
+        <sys_created_on>2026-10-21 00:23:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d04a38390fccd310d4a26ac530d1b25f</sys_id>
+        <sys_id>d6dd30310f001710d4a26ac530d1b218</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:20</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:23:02</sys_updated_on>
         <table>x_2220006_bankin_0_request</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -87,14 +87,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-21 00:07:20</sys_created_on>
-        <sys_id>944a38390fccd310d4a26ac530d1b260</sys_id>
+        <sys_created_on>2026-10-21 00:23:02</sys_created_on>
+        <sys_id>1edd30310f001710d4a26ac530d1b219</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:20</sys_updated_on>
-        <trigger display_value="">d04a38390fccd310d4a26ac530d1b25f</trigger>
+        <sys_updated_on>2026-10-21 00:23:02</sys_updated_on>
+        <trigger display_value="">d6dd30310f001710d4a26ac530d1b218</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN944a38390fccd310d4a26ac530d1b260"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN1edd30310f001710d4a26ac530d1b219"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=26b146fdb94d445cb483f9ed80f2bd0d"/>
     <sys_hub_flow_input action="delete_multiple" query="model=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN8b1cb3e50f08d310d4a26ac530d1b2d7,8d2cf3e50f08d310d4a26ac530d1b28b"/>
@@ -282,10 +282,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-20 19:33:59</sys_created_on>
         <sys_id>b3982408843c4de78058c1543719c0f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:06:39</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:22:33</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs>H4sIAAAAAAAA/+1XXW/TMBT9K1aeQCpS2QMPewPGpEqDSduAh2mK3Pimtebaxb5pG6b+d67z0XppumWsAYT21Pojvufec45zc30XoZWTCdiRdsh1Ape5G4noOIoGkeJjUPT3io8V0FhqBKu5usrnQNPop2PNZ35NwBy0AI3lo8nUyATOpKPx9c0gmnEtOBqbR8doMxhEqTWzK5jNFUc6K+XK0aSxAmx0/HY4HETFuVUQOnDBVebHq/jo6Gg4HL6Lx1zfSh0PYws/MqBABEI6OjD/1mVvMpVKWNAlvjm3FA999LudvBtQsCX9CjnhhhX6QohNUkHq1YwFLs61yoMtKyd/QvF85iAOilntSC+nZnkBKRDiBE6lLsJVi8okXG1GHInRcYbgKJf1elOVUwmqItYlVs7xfYJyURd/PeiihItMs3PNPlU5sqJCblcaJf2PyOKOsvJ0UKgi87TmzSuENqdnQVSjWZJZyh4Z1ZPVVWZYI0hHMz6BMgydqyDBgIT0qwtHn6VzUk+C3PdAKdZ3sag8BFQL4zkQbtqE0tUkNtOx0fFGelu71PgbzqinO5hgL+V7Y2NDA/+qNyIuFl7nopZcD2b5PgXNLoGoNv4X0VN+YLuMDU6bEk2NZR9ono18JF6AL4zzxeg34VyFrT8HaRKH3AYMgXqeWY12D7DecHXBREdbdnhQz/b6klQVu42aFveF0PB6NdvR6nsEuz/4i9sD1ymzJL0c2uBc5zv+9pGkJkvnLDEUbIW9OWXMk9uJNZkW+1Bsd7BXAlKeKXzd3yvZWHgYzv0df9OoHhHdfqFHw2I2nRqudfTrVnKtYV/cWZbqo9FCYnl1N71ZL7knfcY8UQ1JAKDWwq4CuvEeJtNyPLbk1Rvv1dfc79K+5BpdjCbmQsQB4s1HwMwIUCcBKxXXJO95hi5aB5xRH7r5TOuplSs6gp76uLZrnpoQf8VT0W1vF6rREJu0tQmSKauKQ53/OGc4BcKk6HqhkwtUfTaOntAmtBPDaIHZPwLuMI2aR9LSrZV0Ny6AcvIpvVpDkY8Ef3kftJWvcOaOmydKCohVuXb4F0OhgwBaK3NV9Oe+MVrTfSggtpTgP9TKzS9jiSlKABUAAA==</trigger_inputs>
         <trigger_outputs/>
@@ -308,10 +308,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-20 19:33:59</sys_created_on>
         <sys_id>8ef65c3d34a84fd3a2003bacd994e00b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:06:41</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:22:35</sys_updated_on>
         <ui_id>8ef65c3d-34a8-4fd3-a200-3bacd994e00b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2YbW/bNhDHvwqh14YmP8lx3qU2ggVo0yEJOgxFIVAkZXGlRJWk7HiGv3uPEm3LD3DiZAHcLe/ME0ndHX9/3slfF16OM+ZdegbHgkXVoOVNsSit8THqdDpBEIRRjPPvPI+CSLEfJdMGJlGuC4HnX54zt8AKdjZMeZcLj6RcUMVy7/Lrt5bHKSxuDy+CME56eBB0O90guOgMh3F3mAQXg2HQpj3YQuCYCZj6YB2F8SG/zbw4aPvYXItu6wdSUetPu+WxR8NyysCRBAvNWl6Gc4qNVPO1RTFMP+cCDEaVME55buyGKUMGqwkzSDECOyLj3Mvwo+b/gDcXgV2dMAiYWOe8xjByOazNyRgbfA/7E1MqN5WkkhOm61RRluBSmFHTVk/4XBgu83pJ7UG9Wooyy2/rTHnrDVZHBpZSgxOssOHbgFy0yX0qZ3crL695XmXKPRSSYLEeYWMUj0tj/Vl4TLAMNooyXBQ8n0SFklNeLQZfMn8iYOAnQs7gpZpPch8T67gP2cb+NdjHlfkLVtxG8Qm2gcUAiY40UbxYxVa93Fu2PD3XI4G13sQIyY1+lNbDOmIXW1Snxy6pNrqCF0+ZC2PZWutghoHSDKvvEcswFw0xtPeZtyw8g+4gDOM4jPuD7obuIUnoIE5CPCDdBt03ORElZejPlRsb0vc9c7jHUgqG813Wwbffrqs8rVnvnMi6MzjYa8iQkQiORcwRRmuXrNGAFirP4Bc2iGukIe8+epCIu6gaK1poLkuUldrANANPtmTkNxXUO18FOQCcdXyQjl9CYm8hJZxGuoz/ZsQ0VHTLZuhDVSAm6K6uD2ixGAFzhtGo7ZNSKYtNXmYxU8slutLWXUYtYn/Jcl+E/8KOTwm4T4+VJ0YaAr5fR3woC06xGg40n+wI9n5ldGINj4u1rkN7Wm3UneB8dfM/l0Us6byhiSuUA8OxY1gzNYXEItc9oRRrFDOWI9zgFi5PH/0B1762E6cc1gMaCKKG89GIG39fKG/1mqfUg4+qJ+k01POhTsxeppxuUpOJHdX8/vDp40Yzg5cVuLVown6/G76r5tX9WjGjHapkUbjYqlL4FmKq24WGlg7c/MvlvhaegW3vKLaEbn2TVL3L3cqZXeccvlSSsko3pzsUj90TdDPewBy8qluDKicJh0zoRmc24yaFXutAk9XtbGMPLRuvGDuM/83m8RnIoK6FJ6gguWdYkfSaM2GPum4NvF11ELj4VLTDpOvqzqXeNL51n1N5jDyuFX91+0cySeCElF+Bc0hCJ65+ssc6/hcAbspNbtWIKqZTOqvue2d1BjWCMsEzXgHxdvUB8CDkRdc/PcojCxo8jkZbPFYvPIXH3iu7lncgfykg4xcS2T7+FRo2++gdJOOTmey/M/kfZ/LbTyTU5h39FwAA</values>
@@ -337,10 +337,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-20 19:34:00</sys_created_on>
         <sys_id>4eae962203e0481499ca2c111b63d07a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:06:40</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:22:34</sys_updated_on>
         <ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxtjOx5q8lXSBQNuMJRTGKOZakhMxWfIkOaln8t93ZTtJWTPada97s450r865PsduiK5cWTm71tfWio0i02+PARHKY/jcEMHIlJCAKCg4PlGtmHBCK4R2ICuPNc3McHCcpXFIK2O4ciG03RDSeS4oN4fDYnW/XH+6+7z+iqVM2FJC/fD+DnQrJMODHeESDPJz3JBp89tWK2ACo3wURyM6SMaDJIqSq2GcjQdZnLAB8OEYG0rIuMSjs2cKL4h2dekh64xQm35925eujqA2zFNJooDwJ8cV40giB2l5QApQDJw2NZk6UyGAytlSyfp0YiuU64ZewJMVP7nvFEX+ZM5RF+Xd7mmZ9uPs4PwGHCCVirrK9EfpVuMMbTcRxnOopJs9x7oDy7JV2ZY4yOSxWsuqUPfdMMipwfHtIVJZJMFLr9Rz74Xkq63efzmynAvVTqXflJqCPK3A4eyyynk+DeGSF9goLaAscaJpafROtMXIpQg3EhdhLvUeL/UuCYF64iEOFsI54jct/ABGeBV32AaL0Qs2tdSI8qitvZwcAmJrO5PouLNGHG76o/IMO8W9trQbjy9pG13jxTveyzgEDfGsbvVG0IWyDlD2qrYLb8EhBz4ZJ0k04NHwKh5OJhQSGsfehyz6CKS3ah5BHk9ofNmqMLhgy7QFzoF8GTDyekTecO+LiHzonP9nRn+TlviVtPTIm+IyGv1Pyz+nxdPMwAqatv8DbOc/WO+MSz/0ueCSXbTQpTw9ek93rE5vgwqLZWuPLY6/Kb9Ro+V86s7QXpvvXvYZO/wC4uXzwfAGAAA=</values>
@@ -399,7 +399,7 @@
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>timeFromCreateToActivate=135000</attributes>
@@ -421,14 +421,14 @@
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-20 19:36:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d33cf7e50f08d310d4a26ac530d1b246</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -436,7 +436,7 @@
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:07</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:22:54</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -696,10 +696,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-20 19:36:31</sys_created_on>
         <sys_id>994c3be50f08d310d4a26ac530d1b296</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:06</sys_updated_on>
+        <sys_updated_on>2026-10-21 00:22:53</sys_updated_on>
         <ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxtjOx5q8lXSBQNuMJRTGKOZakhMxWfIkOaln8t93ZTtJWTPada97s450r865PsduiK5cWTm71tfWio0i02+PARHKY/jcEMHIlJCAKCg4PlGtmHBCK4R2ICuPNc3McHCcpXFIK2O4ciG03RDSeS4oN4fDYnW/XH+6+7z+iqVM2FJC/fD+DnQrJMODHeESDPJz3JBp89tWK2ACo3wURyM6SMaDJIqSq2GcjQdZnLAB8OEYG0rIuMSjs2cKL4h2dekh64xQm35925eujqA2zFNJooDwJ8cV40giB2l5QApQDJw2NZk6UyGAytlSyfp0YiuU64ZewJMVP7nvFEX+ZM5RF+Xd7mmZ9uPs4PwGHCCVirrK9EfpVuMMbTcRxnOopJs9x7oDy7JV2ZY4yOSxWsuqUPfdMMipwfHtIVJZJMFLr9Rz74Xkq63efzmynAvVTqXflJqCPK3A4eyyynk+DeGSF9goLaAscaJpafROtMXIpQg3EhdhLvUeL/UuCYF64iEOFsI54jct/ABGeBV32AaL0Qs2tdSI8qitvZwcAmJrO5PouLNGHG76o/IMO8W9trQbjy9pG13jxTveyzgEDfGsbvVG0IWyDlD2qrYLb8EhBz4ZJ0k04NHwKh5OJhQSGsfehyz6CKS3ah5BHk9ofNmqMLhgy7QFzoF8GTDyekTecO+LiHzonP9nRn+TlviVtPTIm+IyGv1Pyz+nxdPMwAqatv8DbOc/WO+MSz/0ueCSXbTQpTw9ek93rE5vgwqLZWuPLY6/Kb9Ro+V86s7QXpvvXvYZO/wC4uXzwfAGAAA=</values>
@@ -772,12 +772,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b15c7be50f08d310d4a26ac530d1b2aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:20</sys_updated_on>
-        <trigger display_value="">d04a38390fccd310d4a26ac530d1b25f</trigger>
+        <sys_updated_on>2026-10-21 00:23:03</sys_updated_on>
+        <trigger display_value="">d6dd30310f001710d4a26ac530d1b218</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=26b146fdb94d445cb483f9ed80f2bd0d"/>
 </record_update>

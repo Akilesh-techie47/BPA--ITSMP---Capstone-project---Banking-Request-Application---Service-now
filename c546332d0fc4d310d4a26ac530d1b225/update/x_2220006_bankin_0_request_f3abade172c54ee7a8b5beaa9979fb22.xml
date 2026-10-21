@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_2220006_bankin_0_request">
+  <x_2220006_bankin_0_request action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>f3abade172c54ee7a8b5beaa9979fb22</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>x_2220006_bankin_0_request_f3abade172c54ee7a8b5beaa9979fb22</sys_update_name>
+    <approval_comments>Address updated in all systems</approval_comments>
+    <assigned_officer>71826bf03710200044e0bfc8bcbe5d3b</assigned_officer>
+    <branch>Central Branch</branch>
+    <branch_manager>a8f98bb0eb32010045e1a5115206fe3a</branch_manager>
+    <description>Updated home address after moving to new city</description>
+    <kyc_verified>true</kyc_verified>
+    <number>BSR0001011</number>
+    <priority>low</priority>
+    <request_type>address_update</request_type>
+    <requested_by>62826bf03710200044e0bfc8bcbe5df1</requested_by>
+    <resolution_date>2025-06-20 14:00:00</resolution_date>
+    <state>completed</state>
+  </x_2220006_bankin_0_request>
+</record_update>

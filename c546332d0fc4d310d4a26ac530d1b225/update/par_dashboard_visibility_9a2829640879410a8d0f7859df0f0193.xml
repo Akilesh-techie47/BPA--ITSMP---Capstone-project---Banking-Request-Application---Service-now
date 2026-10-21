@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+  <par_dashboard_visibility action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9a2829640879410a8d0f7859df0f0193</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>par_dashboard_visibility_9a2829640879410a8d0f7859df0f0193</sys_update_name>
+    <dashboard>1f98b3408e294cd8bb9364835df876c2</dashboard>
+    <experience>08c73d60537101100834ddeeff7b1287</experience>
+  </par_dashboard_visibility>
+</record_update>

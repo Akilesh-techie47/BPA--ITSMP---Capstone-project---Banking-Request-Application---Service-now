@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+  <par_dashboard_permission action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c7a24bb1bab2457f9262be07966dfc69</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>par_dashboard_permission_c7a24bb1bab2457f9262be07966dfc69</sys_update_name>
+    <can_read>true</can_read>
+    <can_share>false</can_share>
+    <can_write>false</can_write>
+    <dashboard>1f98b3408e294cd8bb9364835df876c2</dashboard>
+    <owner>false</owner>
+    <role sys_id="d5a63f4f3941488e847ec0e3314c4741">4d6894b10252455382e918ee8c5cf263</role>
+  </par_dashboard_permission>
+</record_update>

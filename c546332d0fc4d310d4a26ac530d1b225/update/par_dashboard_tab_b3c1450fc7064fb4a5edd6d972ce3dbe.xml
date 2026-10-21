@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+  <par_dashboard_tab action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b3c1450fc7064fb4a5edd6d972ce3dbe</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>par_dashboard_tab_b3c1450fc7064fb4a5edd6d972ce3dbe</sys_update_name>
+    <active>true</active>
+    <dashboard>1f98b3408e294cd8bb9364835df876c2</dashboard>
+    <name>Operations Overview</name>
+    <order>0</order>
+  </par_dashboard_tab>
+</record_update>

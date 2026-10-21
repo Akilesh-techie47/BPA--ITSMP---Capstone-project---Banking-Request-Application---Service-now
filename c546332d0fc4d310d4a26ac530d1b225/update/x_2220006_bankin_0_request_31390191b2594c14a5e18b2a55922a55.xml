@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_2220006_bankin_0_request">
+  <x_2220006_bankin_0_request action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>31390191b2594c14a5e18b2a55922a55</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>x_2220006_bankin_0_request_31390191b2594c14a5e18b2a55922a55</sys_update_name>
+    <assigned_officer>71826bf03710200044e0bfc8bcbe5d3b</assigned_officer>
+    <branch>Central Branch</branch>
+    <branch_manager>a8f98bb0eb32010045e1a5115206fe3a</branch_manager>
+    <description>Personal loan request for home renovation</description>
+    <kyc_verified>true</kyc_verified>
+    <number>BSR0001003</number>
+    <priority>high</priority>
+    <request_type>loan_request</request_type>
+    <requested_by>62826bf03710200044e0bfc8bcbe5df1</requested_by>
+    <state>pending_approval</state>
+  </x_2220006_bankin_0_request>
+</record_update>
