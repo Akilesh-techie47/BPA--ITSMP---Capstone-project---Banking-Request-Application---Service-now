@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
-  <sc_cat_item_catalog action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>36c498178a5349438035908f48706e3e</sys_id>
-    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-    <sys_update_name>sc_cat_item_catalog_36c498178a5349438035908f48706e3e</sys_update_name>
-    <sc_cat_item>631b18ce10104e51b6c17a388e504ec9</sc_cat_item>
-    <sc_catalog>e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
-  </sc_cat_item_catalog>
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit Banking Service Request">631b18ce10104e51b6c17a388e504ec9</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 19:32:38</sys_created_on>
+        <sys_id>36c498178a5349438035908f48706e3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.</sys_name>
+        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_36c498178a5349438035908f48706e3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 19:32:38</sys_updated_on>
+    </sc_cat_item_catalog>
 </record_update>

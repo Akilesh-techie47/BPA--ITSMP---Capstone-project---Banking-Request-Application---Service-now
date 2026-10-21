@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_form_sections form_id="fd7e7dfeeb35447fbf407a09c1d37e05" sys_domain="global" table="x_2220006_bankin_0_request">
-    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <position>0</position>
-      <sys_id>00f371e030b4481eaebf8c1a5efbf677</sys_id>
-      <sys_ui_form display_value="x_2220006_bankin_0_request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">fd7e7dfeeb35447fbf407a09c1d37e05</sys_ui_form>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-    </sys_ui_form_section>
-    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
-      <name>x_2220006_bankin_0_request</name>
-      <roles/>
-      <sys_id>fd7e7dfeeb35447fbf407a09c1d37e05</sys_id>
-      <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-      <sys_user/>
-      <view display_value="Default view" name="NULL">Default view</view>
-      <view_name/>
-    </sys_ui_form>
-  </sys_ui_form_sections>
+    <sys_ui_form_sections form_id="fd7e7dfeeb35447fbf407a09c1d37e05" sys_domain="global" table="x_2220006_bankin_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00f371e030b4481eaebf8c1a5efbf677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220006_bankin_0_request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">fd7e7dfeeb35447fbf407a09c1d37e05</sys_ui_form>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2220006_bankin_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-20 19:15:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd7e7dfeeb35447fbf407a09c1d37e05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220006_bankin_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fd7e7dfeeb35447fbf407a09c1d37e05</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-20 19:15:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
 </record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e0bc5ee78afd4e83bc9a3ee823e3d355" label="Banking Service Request" name="x_2220006_bankin_0_request" type="collection">
+        <element label="Branch" max_length="100" name="branch" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="multi_two_lines"/>
+        <element label="KYC Verified" name="kyc_verified" type="boolean"/>
+        <element label="Approval Comments" max_length="4000" name="approval_comments" type="multi_two_lines"/>
+        <element label="Resolution Date" name="resolution_date" type="glide_date_time"/>
+        <element label="Assigned Officer" name="assigned_officer" reference="sys_user" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" label="Request Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="medium" label="Priority" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="critical"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="medium"/>
+            </choice>
+        </element>
+        <element choice="1" label="Request Type" mandatory="true" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cheque Book" sequence="1" value="cheque_book"/>
+                <element inactive_on_update="false" label="Debit Card Replacement" sequence="2" value="debit_card_replacement"/>
+                <element inactive_on_update="false" label="Loan Request" sequence="3" value="loan_request"/>
+                <element inactive_on_update="false" label="Address Update" sequence="4" value="address_update"/>
+            </choice>
+        </element>
+        <element label="Requested By" mandatory="true" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="3" default="submitted" label="State" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="5" value="in_progress"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+            </choice>
+        </element>
+        <element label="Branch Manager" name="branch_manager" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_officer"/>
+        </index>
+        <index name="index2">
+            <element name="branch_manager"/>
+        </index>
+        <index name="index3">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

@@ -1,152 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="Banking Service Request" section_id="e90e3e77e98a4c5ea05403a68630c670" sys_domain="global" table="x_2220006_bankin_0_request" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>4410de41e0ba49968e16a865ffa39daa</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>number</element>
-      <position>1</position>
-      <sys_id>7477c074a80847509264df2f4bc762a5</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>request_type</element>
-      <position>2</position>
-      <sys_id>1a904bb4a206420d88447b569e4474cd</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>priority</element>
-      <position>3</position>
-      <sys_id>11f0bc3b6c61458bad4eb63c8c9f65b1</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>state</element>
-      <position>4</position>
-      <sys_id>54a1da3789cb4d94a2fb255c0202fb4e</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>branch</element>
-      <position>5</position>
-      <sys_id>40032ad7f990415da25c3d42df4364ae</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.split</element>
-      <position>6</position>
-      <sys_id>64dd2eb2f13640a7bba3ad5f00cdfd62</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>requested_by</element>
-      <position>7</position>
-      <sys_id>f54b68bff0c7493d9a1fbdb1c82281ce</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>assigned_officer</element>
-      <position>8</position>
-      <sys_id>070d75ac2e2749ac922c82666576adaf</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>branch_manager</element>
-      <position>9</position>
-      <sys_id>5cd0116e4d2f45d29bac70e721d5d9ce</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>kyc_verified</element>
-      <position>10</position>
-      <sys_id>f4d2e27308594cc1b73c8c8e19291b8a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>resolution_date</element>
-      <position>11</position>
-      <sys_id>e06cd2270edf41c6a7aea61dfa5e723a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.end_split</element>
-      <position>12</position>
-      <sys_id>de0256f697d1441794b6a5ebe5e2c06f</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>description</element>
-      <position>13</position>
-      <sys_id>1961a0475e084cccb61a1e24a2125eee</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>approval_comments</element>
-      <position>14</position>
-      <sys_id>c69016aa5f78435c860802439b944bd5</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <caption>Banking Service Request</caption>
-      <header>false</header>
-      <name>x_2220006_bankin_0_request</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>e90e3e77e98a4c5ea05403a68630c670</sys_id>
-      <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="Banking Service Request" section_id="e90e3e77e98a4c5ea05403a68630c670" sys_domain="global" table="x_2220006_bankin_0_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>4410de41e0ba49968e16a865ffa39daa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>7477c074a80847509264df2f4bc762a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>1a904bb4a206420d88447b569e4474cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>11f0bc3b6c61458bad4eb63c8c9f65b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>54a1da3789cb4d94a2fb255c0202fb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>40032ad7f990415da25c3d42df4364ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>64dd2eb2f13640a7bba3ad5f00cdfd62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>f54b68bff0c7493d9a1fbdb1c82281ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_officer</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>070d75ac2e2749ac922c82666576adaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch_manager</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>5cd0116e4d2f45d29bac70e721d5d9ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kyc_verified</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>f4d2e27308594cc1b73c8c8e19291b8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:25</sys_created_on>
+            <sys_id>e06cd2270edf41c6a7aea61dfa5e723a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:26</sys_created_on>
+            <sys_id>de0256f697d1441794b6a5ebe5e2c06f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:26</sys_created_on>
+            <sys_id>1961a0475e084cccb61a1e24a2125eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_comments</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:26</sys_created_on>
+            <sys_id>c69016aa5f78435c860802439b944bd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking Service Request" display_value="Banking Service Request" name="x_2220006_bankin_0_request" sys_domain="global" view="Default view">e90e3e77e98a4c5ea05403a68630c670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Banking Service Request</caption>
+            <header>false</header>
+            <name>x_2220006_bankin_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-20 19:16:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e90e3e77e98a4c5ea05403a68630c670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220006_bankin_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+            <sys_update_name>sys_ui_section_e90e3e77e98a4c5ea05403a68630c670</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-20 19:16:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>

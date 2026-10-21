@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>f0b300ea6fbd4394908ea950136816ed</sys_id>
-    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-    <sys_update_name>sys_security_acl_role_f0b300ea6fbd4394908ea950136816ed</sys_update_name>
-    <sys_name>x_2220006_bankin_0_request.x_2220006_bankin_0.branch_officer</sys_name>
-    <sys_security_acl>c79c3ea2b70141ebb2c77d8b1f8e7f0c</sys_security_acl>
-    <sys_user_role name="x_2220006_bankin_0.branch_officer">d5a63f4f3941488e847ec0e3314c4741</sys_user_role>
-  </sys_security_acl_role>
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 19:34:50</sys_created_on>
+        <sys_id>f0b300ea6fbd4394908ea950136816ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2220006_bankin_0_request.x_2220006_bankin_0.branch_officer</sys_name>
+        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+        <sys_security_acl display_value="x_2220006_bankin_0_request">c79c3ea2b70141ebb2c77d8b1f8e7f0c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f0b300ea6fbd4394908ea950136816ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 19:34:50</sys_updated_on>
+        <sys_user_role display_value="x_2220006_bankin_0.branch_officer" name="x_2220006_bankin_0.branch_officer">d5a63f4f3941488e847ec0e3314c4741</sys_user_role>
+    </sys_security_acl_role>
 </record_update>

@@ -1,13 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
-  <par_dashboard_permission action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>c7a24bb1bab2457f9262be07966dfc69</sys_id>
-    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-    <sys_update_name>par_dashboard_permission_c7a24bb1bab2457f9262be07966dfc69</sys_update_name>
-    <can_read>true</can_read>
-    <can_share>false</can_share>
-    <can_write>false</can_write>
-    <dashboard>1f98b3408e294cd8bb9364835df876c2</dashboard>
-    <owner>false</owner>
-    <role sys_id="d5a63f4f3941488e847ec0e3314c4741">b5ead481a3794ae0a5f4ec5898d882cb</role>
-  </par_dashboard_permission>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Banking Operations Dashboard">1f98b3408e294cd8bb9364835df876c2</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="">b5ead481a3794ae0a5f4ec5898d882cb</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 00:19:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7a24bb1bab2457f9262be07966dfc69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f98b3408e294cd8bb9364835df876c2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+        <sys_update_name>par_dashboard_permission_c7a24bb1bab2457f9262be07966dfc69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 00:19:29</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
 </record_update>

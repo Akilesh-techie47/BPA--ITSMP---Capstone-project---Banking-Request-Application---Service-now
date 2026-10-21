@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
-  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>d14bb2227afe46cc8495c3a9dd270be2</sys_id>
-    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-    <sys_update_name>question_choice_d14bb2227afe46cc8495c3a9dd270be2</sys_update_name>
-    <inactive>false</inactive>
-    <order>4</order>
-    <question cat_item="631b18ce10104e51b6c17a388e504ec9" name="var_request_type" variable_set="NULL">12ccc13e2091458da5fac320a07bf53e</question>
-    <text>Address Update</text>
-    <value>address_update</value>
-  </question_choice>
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>4</order>
+        <published_ref/>
+        <question display_value="Request Type">12ccc13e2091458da5fac320a07bf53e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 19:32:36</sys_created_on>
+        <sys_id>d14bb2227afe46cc8495c3a9dd270be2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Address Update</sys_name>
+        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+        <sys_update_name>question_choice_d14bb2227afe46cc8495c3a9dd270be2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 19:32:36</sys_updated_on>
+        <text>Address Update</text>
+        <value>address_update</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d14bb2227afe46cc8495c3a9dd270be2"/>
 </record_update>

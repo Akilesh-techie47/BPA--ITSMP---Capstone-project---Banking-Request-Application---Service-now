@@ -1,11 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard">
-  <par_dashboard action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>1f98b3408e294cd8bb9364835df876c2</sys_id>
-    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-    <sys_update_name>par_dashboard_1f98b3408e294cd8bb9364835df876c2</sys_update_name>
-    <active>true</active>
-    <certified>false</certified>
-    <description>Operational overview of banking service requests</description>
-    <name>Banking Operations Dashboard</name>
-  </par_dashboard>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description>Operational overview of banking service requests</description>
+        <experience/>
+        <grid/>
+        <name>Banking Operations Dashboard</name>
+        <ready_to_migrate/>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 00:19:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f98b3408e294cd8bb9364835df876c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Banking Operations Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+        <sys_update_name>par_dashboard_1f98b3408e294cd8bb9364835df876c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 00:19:19</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
 </record_update>

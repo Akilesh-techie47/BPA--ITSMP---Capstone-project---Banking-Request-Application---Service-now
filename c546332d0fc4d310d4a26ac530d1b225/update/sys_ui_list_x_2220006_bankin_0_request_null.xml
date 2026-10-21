@@ -1,53 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2220006_bankin_0_request" view="">
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>e42426c02de549f78247a0a9b33ccf21</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>number</element>
-      <position>0</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>86494df32a6e4f01bd49a326bef1b1ca</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>request_type</element>
-      <position>1</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>6b693d287e6b4c4cb69e27e06d032000</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>requested_by</element>
-      <position>2</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>33adc0cd7e2c4a85b9d3457ccf7adde5</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>state</element>
-      <position>3</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>6ebc981232f34f00a17eb440b1323a67</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>priority</element>
-      <position>4</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>28099dc6f40344c8a8aa653802625da4</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>assigned_officer</element>
-      <position>5</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>7cb6015e33e64e0694b82d82fe0881bc</sys_id>
-      <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
-      <element>branch</element>
-      <position>6</position>
-    </sys_ui_list_element>
-    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>08e3bc85fdc549ce9b46980f7b39fa39</sys_id>
-      <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-      <view name="NULL">Default view</view>
-      <name>x_2220006_bankin_0_request</name>
-      <sys_domain>global</sys_domain>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2220006_bankin_0_request" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>e42426c02de549f78247a0a9b33ccf21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_type</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>86494df32a6e4f01bd49a326bef1b1ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_by</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>6b693d287e6b4c4cb69e27e06d032000</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>33adc0cd7e2c4a85b9d3457ccf7adde5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>6ebc981232f34f00a17eb440b1323a67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_officer</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>28099dc6f40344c8a8aa653802625da4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>branch</element>
+            <list_id display_value="x_2220006_bankin_0_request" element="NULL" name="x_2220006_bankin_0_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">08e3bc85fdc549ce9b46980f7b39fa39</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:11</sys_created_on>
+            <sys_id>7cb6015e33e64e0694b82d82fe0881bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_2220006_bankin_0_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 01:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e3bc85fdc549ce9b46980f7b39fa39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220006_bankin_0_request</sys_name>
+            <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+            <sys_update_name>sys_ui_list_x_2220006_bankin_0_request_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 01:17:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
     </sys_ui_list>
-  </sys_ui_list>
 </record_update>
