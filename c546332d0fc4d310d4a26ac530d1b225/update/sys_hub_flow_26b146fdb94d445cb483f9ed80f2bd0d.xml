@@ -1,783 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
-    <sys_hub_flow action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <acls/>
-        <active>true</active>
-        <allow_high_security_roles>false</allow_high_security_roles>
-        <annotation/>
-        <attributes>timeFromCreateToActivate=17318000</attributes>
-        <authored_on_release_version/>
-        <callable_by_client_api>false</callable_by_client_api>
-        <category/>
-        <copied_from/>
-        <copied_from_name/>
-        <description/>
-        <display_name_after_preview/>
-        <flow_priority>MEDIUM</flow_priority>
-        <generation_source>fluent</generation_source>
-        <internal_name>notify_assigned_officer_on_new_request</internal_name>
-        <label_cache>[{"name":"Created_1.current.assigned_officer","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer","type":"reference","base_type":"reference","usedInstances":{"4eae9622-03e0-4814-99ca-2c111b63d07a":["condition"]},"attributes":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Number","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_subject"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record","type":"reference","base_type":"reference","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_officer.email","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer➛Email","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_to"]},"attributes":{}}]</label_cache>
-        <master_snapshot>d33cf7e50f08d310d4a26ac530d1b246</master_snapshot>
-        <master_snapshot_digest/>
-        <name>Notify Assigned Officer on New Request</name>
-        <natlang/>
-        <outputs/>
-        <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>d6dd30310f001710d4a26ac530d1b218</remote_trigger_id>
-        <run_as>system</run_as>
-        <run_with_roles/>
-        <sc_callable>false</sc_callable>
-        <show_draft_actions>false</show_draft_actions>
-        <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
-        <substatus/>
-        <sys_class_name>sys_hub_flow</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:33:58</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>26b146fdb94d445cb483f9ed80f2bd0d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Notify Assigned Officer on New Request</sys_name>
-        <sys_overrides/>
-        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name>sys_hub_flow_26b146fdb94d445cb483f9ed80f2bd0d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:23:03</sys_updated_on>
-        <type>flow</type>
-        <updation_source/>
-        <version>2</version>
-        <version_record/>
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+  <sys_hub_flow action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>26b146fdb94d445cb483f9ed80f2bd0d</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_hub_flow_26b146fdb94d445cb483f9ed80f2bd0d</sys_update_name>
+    <access>public</access>
+    <active>false</active>
+    <allow_high_security_roles>false</allow_high_security_roles>
+    <annotation/>
+    <category/>
+    <description/>
+    <flow_priority>MEDIUM</flow_priority>
+    <generation_source>fluent</generation_source>
+    <internal_name>notify_assigned_officer_on_new_request</internal_name>
+    <label_cache>[{"name":"Created_1.current.assigned_officer","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer","type":"reference","base_type":"reference","usedInstances":{"4eae9622-03e0-4814-99ca-2c111b63d07a":["condition"]},"attributes":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Number","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_subject"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record","type":"reference","base_type":"reference","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_officer.email","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer➛Email","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_to"]},"attributes":{}}]</label_cache>
+    <latest_snapshot>d33cf7e50f08d310d4a26ac530d1b246</latest_snapshot>
+    <master_snapshot>d33cf7e50f08d310d4a26ac530d1b246</master_snapshot>
+    <name>Notify Assigned Officer on New Request</name>
+    <run_as>system</run_as>
+    <run_with_roles/>
+    <show_draft_actions>false</show_draft_actions>
+    <status>draft</status>
+    <sys_policy/>
+    <type>flow</type>
+    <version>2</version>
+  <version_record/>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_variable_value action="delete_multiple" query="document_key=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <condition/>
-        <name/>
-        <on_delete>false</on_delete>
-        <on_insert>true</on_insert>
-        <on_update>false</on_update>
-        <published_version/>
-        <run_flow_in>background</run_flow_in>
-        <run_on_extended>false</run_on_extended>
-        <run_when_setting>both</run_when_setting>
-        <run_when_user_list/>
-        <run_when_user_setting>any</run_when_user_setting>
-        <sys_class_name>sys_flow_record_trigger</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-21 00:23:02</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>d6dd30310f001710d4a26ac530d1b218</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:23:02</sys_updated_on>
-        <table>x_2220006_bankin_0_request</table>
-        <trigger_definition/>
-    </sys_flow_record_trigger>
-    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
-        <identifier>26b146fdb94d445cb483f9ed80f2bd0d</identifier>
-        <identifier_type>flow</identifier_type>
-        <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-21 00:23:02</sys_created_on>
-        <sys_id>1edd30310f001710d4a26ac530d1b219</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:23:02</sys_updated_on>
-        <trigger display_value="">d6dd30310f001710d4a26ac530d1b218</trigger>
-    </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN1edd30310f001710d4a26ac530d1b219"/>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN8b1cb3e50f08d310d4a26ac530d1b2d7,8d2cf3e50f08d310d4a26ac530d1b28b"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=135000,uiType=document_id</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</model>
-        <model_id>26b146fdb94d445cb483f9ed80f2bd0d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_26b146fdb94d445cb483f9ed80f2bd0d</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:35:49</sys_created_on>
-        <sys_id>8b1cb3e50f08d310d4a26ac530d1b2d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:06:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8b1cb3e50f08d310d4a26ac530d1b2d7"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
-        <mandatory>false</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</model>
-        <model_id>26b146fdb94d445cb483f9ed80f2bd0d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_26b146fdb94d445cb483f9ed80f2bd0d</name>
-        <next_element/>
-        <order>101</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:35:58</sys_created_on>
-        <sys_id>8d2cf3e50f08d310d4a26ac530d1b28b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:35:58</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d2cf3e50f08d310d4a26ac530d1b28b"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT INb3982408843c4de78058c1543719c0f0"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</flow>
-        <generation_source/>
-        <name>Created</name>
-        <published_version/>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:33:59</sys_created_on>
-        <sys_id>b3982408843c4de78058c1543719c0f0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:22:33</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+1XXW/TMBT9K1aeQCpS2QMPewPGpEqDSduAh2mK3Pimtebaxb5pG6b+d67z0XppumWsAYT21Pojvufec45zc30XoZWTCdiRdsh1Ape5G4noOIoGkeJjUPT3io8V0FhqBKu5usrnQNPop2PNZ35NwBy0AI3lo8nUyATOpKPx9c0gmnEtOBqbR8doMxhEqTWzK5jNFUc6K+XK0aSxAmx0/HY4HETFuVUQOnDBVebHq/jo6Gg4HL6Lx1zfSh0PYws/MqBABEI6OjD/1mVvMpVKWNAlvjm3FA999LudvBtQsCX9CjnhhhX6QohNUkHq1YwFLs61yoMtKyd/QvF85iAOilntSC+nZnkBKRDiBE6lLsJVi8okXG1GHInRcYbgKJf1elOVUwmqItYlVs7xfYJyURd/PeiihItMs3PNPlU5sqJCblcaJf2PyOKOsvJ0UKgi87TmzSuENqdnQVSjWZJZyh4Z1ZPVVWZYI0hHMz6BMgydqyDBgIT0qwtHn6VzUk+C3PdAKdZ3sag8BFQL4zkQbtqE0tUkNtOx0fFGelu71PgbzqinO5hgL+V7Y2NDA/+qNyIuFl7nopZcD2b5PgXNLoGoNv4X0VN+YLuMDU6bEk2NZR9ono18JF6AL4zzxeg34VyFrT8HaRKH3AYMgXqeWY12D7DecHXBREdbdnhQz/b6klQVu42aFveF0PB6NdvR6nsEuz/4i9sD1ymzJL0c2uBc5zv+9pGkJkvnLDEUbIW9OWXMk9uJNZkW+1Bsd7BXAlKeKXzd3yvZWHgYzv0df9OoHhHdfqFHw2I2nRqudfTrVnKtYV/cWZbqo9FCYnl1N71ZL7knfcY8UQ1JAKDWwq4CuvEeJtNyPLbk1Rvv1dfc79K+5BpdjCbmQsQB4s1HwMwIUCcBKxXXJO95hi5aB5xRH7r5TOuplSs6gp76uLZrnpoQf8VT0W1vF6rREJu0tQmSKauKQ53/OGc4BcKk6HqhkwtUfTaOntAmtBPDaIHZPwLuMI2aR9LSrZV0Ny6AcvIpvVpDkY8Ef3kftJWvcOaOmydKCohVuXb4F0OhgwBaK3NV9Oe+MVrTfSggtpTgP9TKzS9jiSlKABUAAA==</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-        <updation_source/>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN8ef65c3d34a84fd3a2003bacd994e00b"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="">c1806bf4a70323008299b39f087901cb</action_type_parent>
-        <attributes>timeFromCreateToActivate=135000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</flow>
-        <generation_source/>
-        <order>2</order>
-        <parent_ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:33:59</sys_created_on>
-        <sys_id>8ef65c3d34a84fd3a2003bacd994e00b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:22:35</sys_updated_on>
-        <ui_id>8ef65c3d-34a8-4fd3-a200-3bacd994e00b</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+2YbW/bNhDHvwqh14YmP8lx3qU2ggVo0yEJOgxFIVAkZXGlRJWk7HiGv3uPEm3LD3DiZAHcLe/ME0ndHX9/3slfF16OM+ZdegbHgkXVoOVNsSit8THqdDpBEIRRjPPvPI+CSLEfJdMGJlGuC4HnX54zt8AKdjZMeZcLj6RcUMVy7/Lrt5bHKSxuDy+CME56eBB0O90guOgMh3F3mAQXg2HQpj3YQuCYCZj6YB2F8SG/zbw4aPvYXItu6wdSUetPu+WxR8NyysCRBAvNWl6Gc4qNVPO1RTFMP+cCDEaVME55buyGKUMGqwkzSDECOyLj3Mvwo+b/gDcXgV2dMAiYWOe8xjByOazNyRgbfA/7E1MqN5WkkhOm61RRluBSmFHTVk/4XBgu83pJ7UG9Wooyy2/rTHnrDVZHBpZSgxOssOHbgFy0yX0qZ3crL695XmXKPRSSYLEeYWMUj0tj/Vl4TLAMNooyXBQ8n0SFklNeLQZfMn8iYOAnQs7gpZpPch8T67gP2cb+NdjHlfkLVtxG8Qm2gcUAiY40UbxYxVa93Fu2PD3XI4G13sQIyY1+lNbDOmIXW1Snxy6pNrqCF0+ZC2PZWutghoHSDKvvEcswFw0xtPeZtyw8g+4gDOM4jPuD7obuIUnoIE5CPCDdBt03ORElZejPlRsb0vc9c7jHUgqG813Wwbffrqs8rVnvnMi6MzjYa8iQkQiORcwRRmuXrNGAFirP4Bc2iGukIe8+epCIu6gaK1poLkuUldrANANPtmTkNxXUO18FOQCcdXyQjl9CYm8hJZxGuoz/ZsQ0VHTLZuhDVSAm6K6uD2ixGAFzhtGo7ZNSKYtNXmYxU8slutLWXUYtYn/Jcl+E/8KOTwm4T4+VJ0YaAr5fR3woC06xGg40n+wI9n5ldGINj4u1rkN7Wm3UneB8dfM/l0Us6byhiSuUA8OxY1gzNYXEItc9oRRrFDOWI9zgFi5PH/0B1762E6cc1gMaCKKG89GIG39fKG/1mqfUg4+qJ+k01POhTsxeppxuUpOJHdX8/vDp40Yzg5cVuLVown6/G76r5tX9WjGjHapkUbjYqlL4FmKq24WGlg7c/MvlvhaegW3vKLaEbn2TVL3L3cqZXeccvlSSsko3pzsUj90TdDPewBy8qluDKicJh0zoRmc24yaFXutAk9XtbGMPLRuvGDuM/83m8RnIoK6FJ6gguWdYkfSaM2GPum4NvF11ELj4VLTDpOvqzqXeNL51n1N5jDyuFX91+0cySeCElF+Bc0hCJ65+ssc6/hcAbspNbtWIKqZTOqvue2d1BjWCMsEzXgHxdvUB8CDkRdc/PcojCxo8jkZbPFYvPIXH3iu7lncgfykg4xcS2T7+FRo2++gdJOOTmey/M/kfZ/LbTyTU5h39FwAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ef65c3d34a84fd3a2003bacd994e00b"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN4eae962203e0481499ca2c111b63d07a"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=135000</attributes>
-        <block display_value="">d03c77e50f08d310d4a26ac530d1b2fe</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:34:00</sys_created_on>
-        <sys_id>4eae962203e0481499ca2c111b63d07a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:22:34</sys_updated_on>
-        <ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxtjOx5q8lXSBQNuMJRTGKOZakhMxWfIkOaln8t93ZTtJWTPada97s450r865PsduiK5cWTm71tfWio0i02+PARHKY/jcEMHIlJCAKCg4PlGtmHBCK4R2ICuPNc3McHCcpXFIK2O4ciG03RDSeS4oN4fDYnW/XH+6+7z+iqVM2FJC/fD+DnQrJMODHeESDPJz3JBp89tWK2ACo3wURyM6SMaDJIqSq2GcjQdZnLAB8OEYG0rIuMSjs2cKL4h2dekh64xQm35925eujqA2zFNJooDwJ8cV40giB2l5QApQDJw2NZk6UyGAytlSyfp0YiuU64ZewJMVP7nvFEX+ZM5RF+Xd7mmZ9uPs4PwGHCCVirrK9EfpVuMMbTcRxnOopJs9x7oDy7JV2ZY4yOSxWsuqUPfdMMipwfHtIVJZJMFLr9Rz74Xkq63efzmynAvVTqXflJqCPK3A4eyyynk+DeGSF9goLaAscaJpafROtMXIpQg3EhdhLvUeL/UuCYF64iEOFsI54jct/ABGeBV32AaL0Qs2tdSI8qitvZwcAmJrO5PouLNGHG76o/IMO8W9trQbjy9pG13jxTveyzgEDfGsbvVG0IWyDlD2qrYLb8EhBz4ZJ0k04NHwKh5OJhQSGsfehyz6CKS3ah5BHk9ofNmqMLhgy7QFzoF8GTDyekTecO+LiHzonP9nRn+TlviVtPTIm+IyGv1Pyz+nxdPMwAqatv8DbOc/WO+MSz/0ueCSXbTQpTw9ek93rE5vgwqLZWuPLY6/Kb9Ro+V86s7QXpvvXvYZO/wC4uXzwfAGAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_26b146fdb94d445cb483f9ed80f2bd0d</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:35:57</sys_created_on>
-        <sys_id>892cf3e50f08d310d4a26ac530d1b287</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:35:57</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_26b146fdb94d445cb483f9ed80f2bd0d</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:35:58</sys_created_on>
-        <sys_id>952c37e50f08d310d4a26ac530d1b259</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:35:58</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_26b146fdb94d445cb483f9ed80f2bd0d"/>
-    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <acls/>
-        <active>false</active>
-        <allow_high_security_roles>false</allow_high_security_roles>
-        <annotation/>
-        <attributes>timeFromCreateToActivate=135000</attributes>
-        <authored_on_release_version>-1</authored_on_release_version>
-        <callable_by_client_api>false</callable_by_client_api>
-        <category/>
-        <copied_from/>
-        <copied_from_name/>
-        <description/>
-        <flow_priority>MEDIUM</flow_priority>
-        <internal_name>notify_assigned_officer_on_new_request</internal_name>
-        <label_cache>[{"name":"Created_1.current.assigned_officer","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer","type":"reference","base_type":"reference","usedInstances":{"4eae9622-03e0-4814-99ca-2c111b63d07a":["condition"]},"attributes":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Number","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_subject"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record","type":"reference","base_type":"reference","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_officer.email","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer➛Email","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_to"]},"attributes":{}}]</label_cache>
-        <master>true</master>
-        <name>Notify Assigned Officer on New Request</name>
-        <natlang/>
-        <outputs/>
-        <parent_flow display_value="Notify Assigned Officer on New Request">26b146fdb94d445cb483f9ed80f2bd0d</parent_flow>
-        <remote_trigger_id/>
-        <run_as>system</run_as>
-        <run_with_roles/>
-        <sc_callable>false</sc_callable>
-        <status>draft</status>
-        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:23</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>d33cf7e50f08d310d4a26ac530d1b246</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:22:54</sys_updated_on>
-        <type>flow</type>
-        <version>2</version>
-    </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_variable_value action="delete_multiple" query="document_key=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=d33cf7e50f08d310d4a26ac530d1b246^sys_idNOT INa33cf7e50f08d310d4a26ac530d1b248"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>d33cf7e50f08d310d4a26ac530d1b246</id>
-        <name>Notify Assigned Officer on New Request</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:23</sys_created_on>
-        <sys_id>a33cf7e50f08d310d4a26ac530d1b248</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:36:23</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a33cf7e50f08d310d4a26ac530d1b248"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=d33cf7e50f08d310d4a26ac530d1b246^sys_idNOT IN144c3be50f08d310d4a26ac530d1b220,233cf7e50f08d310d4a26ac530d1b2ec"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
-        <mandatory>false</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Notify Assigned Officer on New Request">d33cf7e50f08d310d4a26ac530d1b246</model>
-        <model_id>d33cf7e50f08d310d4a26ac530d1b246</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_d33cf7e50f08d310d4a26ac530d1b246</name>
-        <next_element/>
-        <order>101</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:27</sys_created_on>
-        <sys_id>144c3be50f08d310d4a26ac530d1b220</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:36:27</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=144c3be50f08d310d4a26ac530d1b220"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=135000,uiType=document_id</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Notify Assigned Officer on New Request">d33cf7e50f08d310d4a26ac530d1b246</model>
-        <model_id>d33cf7e50f08d310d4a26ac530d1b246</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_d33cf7e50f08d310d4a26ac530d1b246</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:24</sys_created_on>
-        <sys_id>233cf7e50f08d310d4a26ac530d1b2ec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:06:56</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=233cf7e50f08d310d4a26ac530d1b2ec"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d33cf7e50f08d310d4a26ac530d1b246^sys_idNOT IN074c3be50f08d310d4a26ac530d1b2f3"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">d33cf7e50f08d310d4a26ac530d1b246</flow>
-        <generation_source/>
-        <name>Created</name>
-        <published_version/>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:38</sys_created_on>
-        <sys_id>074c3be50f08d310d4a26ac530d1b2f3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:36:38</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+1XXW/TMBT9K1aeQCpS2QMPewPGpEqDSduAh2mK3Pimtebaxb5pG6b+d67z0XppumWsAYT21Pojvufec45zc30XoZWTCdiRdsh1Ape5G4noOIoGkeJjUPT3io8V0FhqBKu5usrnQNPop2PNZ35NwBy0AI3lo8nUyATOpKPx9c0gmnEtOBqbR8doMxhEqTWzK5jNFUc6K+XK0aSxAmx0/HY4HETFuVUQOnDBVebHq/jo6Gg4HL6Lx1zfSh0PYws/MqBABEI6OjD/1mVvMpVKWNAlvjm3FA999LudvBtQsCX9CjnhhhX6QohNUkHq1YwFLs61yoMtKyd/QvF85iAOilntSC+nZnkBKRDiBE6lLsJVi8okXG1GHInRcYbgKJf1elOVUwmqItYlVs7xfYJyURd/PeiihItMs3PNPlU5sqJCblcaJf2PyOKOsvJ0UKgi87TmzSuENqdnQVSjWZJZyh4Z1ZPVVWZYI0hHMz6BMgydqyDBgIT0qwtHn6VzUk+C3PdAKdZ3sag8BFQL4zkQbtqE0tUkNtOx0fFGelu71PgbzqinO5hgL+V7Y2NDA/+qNyIuFl7nopZcD2b5PgXNLoGoNv4X0VN+YLuMDU6bEk2NZR9ono18JF6AL4zzxeg34VyFrT8HaRKH3AYMgXqeWY12D7DecHXBREdbdnhQz/b6klQVu42aFveF0PB6NdvR6nsEuz/4i9sD1ymzJL0c2uBc5zv+9pGkJkvnLDEUbIW9OWXMk9uJNZkW+1Bsd7BXAlKeKXzd3yvZWHgYzv0df9OoHhHdfqFHw2I2nRqudfTrVnKtYV/cWZbqo9FCYnl1N71ZL7knfcY8UQ1JAKDWwq4CuvEeJtNyPLbk1Rvv1dfc79K+5BpdjCbmQsQB4s1HwMwIUCcBKxXXJO95hi5aB5xRH7r5TOuplSs6gp76uLZrnpoQf8VT0W1vF6rREJu0tQmSKauKQ53/OGc4BcKk6HqhkwtUfTaOntAmtBPDaIHZPwLuMI2aR9LSrZV0Ny6AcvIpvVpDkY8Ef3kftJWvcOaOmydKCohVuXb4F0OhgwBaK3NV9Oe+MVrTfSggtpTgP9TKzS9jiSlKABUAAA==</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-        <updation_source/>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d33cf7e50f08d310d4a26ac530d1b246^sys_idNOT IN654c3be50f08d310d4a26ac530d1b299"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes>timeFromCreateToActivate=135000</attributes>
-        <comment/>
-        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">d33cf7e50f08d310d4a26ac530d1b246</flow>
-        <generation_source/>
-        <order>2</order>
-        <parent_ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:32</sys_created_on>
-        <sys_id>654c3be50f08d310d4a26ac530d1b299</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:07:06</sys_updated_on>
-        <ui_id>8ef65c3d-34a8-4fd3-a200-3bacd994e00b</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+2YbW/bNhDHvwqh14YmP8lx3qU2ggVo0yEJOgxFIVAkZXGlRJWk7HiGv3uPEm3LD3DiZAHcLe/ME0ndHX9/3slfF16OM+ZdegbHgkXVoOVNsSit8THqdDpBEIRRjPPvPI+CSLEfJdMGJlGuC4HnX54zt8AKdjZMeZcLj6RcUMVy7/Lrt5bHKSxuDy+CME56eBB0O90guOgMh3F3mAQXg2HQpj3YQuCYCZj6YB2F8SG/zbw4aPvYXItu6wdSUetPu+WxR8NyysCRBAvNWl6Gc4qNVPO1RTFMP+cCDEaVME55buyGKUMGqwkzSDECOyLj3Mvwo+b/gDcXgV2dMAiYWOe8xjByOazNyRgbfA/7E1MqN5WkkhOm61RRluBSmFHTVk/4XBgu83pJ7UG9Wooyy2/rTHnrDVZHBpZSgxOssOHbgFy0yX0qZ3crL695XmXKPRSSYLEeYWMUj0tj/Vl4TLAMNooyXBQ8n0SFklNeLQZfMn8iYOAnQs7gpZpPch8T67gP2cb+NdjHlfkLVtxG8Qm2gcUAiY40UbxYxVa93Fu2PD3XI4G13sQIyY1+lNbDOmIXW1Snxy6pNrqCF0+ZC2PZWutghoHSDKvvEcswFw0xtPeZtyw8g+4gDOM4jPuD7obuIUnoIE5CPCDdBt03ORElZejPlRsb0vc9c7jHUgqG813Wwbffrqs8rVnvnMi6MzjYa8iQkQiORcwRRmuXrNGAFirP4Bc2iGukIe8+epCIu6gaK1poLkuUldrANANPtmTkNxXUO18FOQCcdXyQjl9CYm8hJZxGuoz/ZsQ0VHTLZuhDVSAm6K6uD2ixGAFzhtGo7ZNSKYtNXmYxU8slutLWXUYtYn/Jcl+E/8KOTwm4T4+VJ0YaAr5fR3woC06xGg40n+wI9n5ldGINj4u1rkN7Wm3UneB8dfM/l0Us6byhiSuUA8OxY1gzNYXEItc9oRRrFDOWI9zgFi5PH/0B1762E6cc1gMaCKKG89GIG39fKG/1mqfUg4+qJ+k01POhTsxeppxuUpOJHdX8/vDp40Yzg5cVuLVown6/G76r5tX9WjGjHapkUbjYqlL4FmKq24WGlg7c/MvlvhaegW3vKLaEbn2TVL3L3cqZXeccvlSSsko3pzsUj90TdDPewBy8qluDKicJh0zoRmc24yaFXutAk9XtbGMPLRuvGDuM/83m8RnIoK6FJ6gguWdYkfSaM2GPum4NvF11ELj4VLTDpOvqzqXeNL51n1N5jDyuFX91+0cySeCElF+Bc0hCJ65+ssc6/hcAbspNbtWIKqZTOqvue2d1BjWCMsEzXgHxdvUB8CDkRdc/PcojCxo8jkZbPFYvPIXH3iu7lncgfykg4xcS2T7+FRo2++gdJOOTmey/M/kfZ/LbTyTU5h39FwAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=654c3be50f08d310d4a26ac530d1b299"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d33cf7e50f08d310d4a26ac530d1b246^sys_idNOT IN994c3be50f08d310d4a26ac530d1b296"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=135000</attributes>
-        <block display_value="">d03c77e50f08d310d4a26ac530d1b2fe</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Notify Assigned Officer on New Request">d33cf7e50f08d310d4a26ac530d1b246</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:31</sys_created_on>
-        <sys_id>994c3be50f08d310d4a26ac530d1b296</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:22:53</sys_updated_on>
-        <ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxtjOx5q8lXSBQNuMJRTGKOZakhMxWfIkOaln8t93ZTtJWTPada97s450r865PsduiK5cWTm71tfWio0i02+PARHKY/jcEMHIlJCAKCg4PlGtmHBCK4R2ICuPNc3McHCcpXFIK2O4ciG03RDSeS4oN4fDYnW/XH+6+7z+iqVM2FJC/fD+DnQrJMODHeESDPJz3JBp89tWK2ACo3wURyM6SMaDJIqSq2GcjQdZnLAB8OEYG0rIuMSjs2cKL4h2dekh64xQm35925eujqA2zFNJooDwJ8cV40giB2l5QApQDJw2NZk6UyGAytlSyfp0YiuU64ZewJMVP7nvFEX+ZM5RF+Xd7mmZ9uPs4PwGHCCVirrK9EfpVuMMbTcRxnOopJs9x7oDy7JV2ZY4yOSxWsuqUPfdMMipwfHtIVJZJMFLr9Rz74Xkq63efzmynAvVTqXflJqCPK3A4eyyynk+DeGSF9goLaAscaJpafROtMXIpQg3EhdhLvUeL/UuCYF64iEOFsI54jct/ABGeBV32AaL0Qs2tdSI8qitvZwcAmJrO5PouLNGHG76o/IMO8W9trQbjy9pG13jxTveyzgEDfGsbvVG0IWyDlD2qrYLb8EhBz4ZJ0k04NHwKh5OJhQSGsfehyz6CKS3ah5BHk9ofNmqMLhgy7QFzoF8GTDyekTecO+LiHzonP9nRn+TlviVtPTIm+IyGv1Pyz+nxdPMwAqatv8DbOc/WO+MSz/0ueCSXbTQpTw9ek93rE5vgwqLZWuPLY6/Kb9Ro+V86s7QXpvvXvYZO/wC4uXzwfAGAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_d33cf7e50f08d310d4a26ac530d1b246</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:28</sys_created_on>
-        <sys_id>2c4c3be50f08d310d4a26ac530d1b226</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:36:28</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_d33cf7e50f08d310d4a26ac530d1b246</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:26</sys_created_on>
-        <sys_id>884cf7e50f08d310d4a26ac530d1b2f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Banking Service Request Management" source="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Banking Service Request Management">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-20 19:36:26</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d33cf7e50f08d310d4a26ac530d1b246"/>
-    <sys_hub_flow action="UPDATE">
-        <sys_id>26b146fdb94d445cb483f9ed80f2bd0d</sys_id>
-        <latest_snapshot>d33cf7e50f08d310d4a26ac530d1b246</latest_snapshot>
-        <compiler_build/>
-        <version_record/>
-    </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT INb15c7be50f08d310d4a26ac530d1b2aa"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
-        <plan_id>26b146fdb94d445cb483f9ed80f2bd0d</plan_id>
-        <snapshot>d33cf7e50f08d310d4a26ac530d1b246</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-20 19:36:49</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>b15c7be50f08d310d4a26ac530d1b2aa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 00:23:03</sys_updated_on>
-        <trigger display_value="">d6dd30310f001710d4a26ac530d1b218</trigger>
-    </sys_flow_trigger_plan>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=26b146fdb94d445cb483f9ed80f2bd0d"/>
+  <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT INb3982408843c4de78058c1543719c0f0"/>
+  <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b3982408843c4de78058c1543719c0f0</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_hub_trigger_instance_v2_b3982408843c4de78058c1543719c0f0</sys_update_name>
+    <category/>
+    <comment/>
+    <flow>26b146fdb94d445cb483f9ed80f2bd0d</flow>
+    <name>Created</name>
+    <trigger_definition>798916a0c31322002841b63b12d3ae7c</trigger_definition>
+    <trigger_inputs>H4sIAAAAAAAAA71WwW7bMAz9FUGnDfCArIcdctvWDgjQrcDaboeiEGSLToQqVCbRSY0i/z7IsVPZcZoGcXsKTCnk4+MjqbsnTk5Pp+Am6EliBtelnyg+5jzhRqZg+JjfyNQAT7hGAofS3JQL4GNOwSxQzsOZggWgAqTNX7OZ1Rlcak98fHef8LlEJcm6ko/JFZBw6xQ4Pv48GiW8clH74wlfSlOE70dxdnY2Go2+iFTig0YxEg7+FeApxNN+YWT554i7PzSYOjOfOb2grxnpJfBxLo2HgFkb5QA3iBfSyTlQAPnEqSfjDuo2Wet18hpmfxfIrpBdPFIgT7Hqz36X6g2dB2h+4nlDR+CYJzy/jOJYZFnhHCAxiYpBE5OamPlkLqewcZxfg4GMQG3ZyW99/PVTe69xWhtCttvglWU3uiljCA1tpwRt66q+1CMsV6CwKJqMI4k1UDtq6phPF862fnsRHVSEJHI6LQh88CvVMkhKNbVeHyG4vzNAdg3eaxt+iQKlJ0sutTTrFj23jn2zNGOT4FtWrFXi+2XxU2yr0QypQrQo9HOIGNpV0GKDbw+UAZG8BsWtB8eGh3FMh6xmgMJv5bBs17XTIW3r2zRIB9ArJDxcj+TGrtgET28LieVOVwTfGpnEkmUWCR5pQLWlMnuYOlug2hf3+Qb7oCCXhaGPQ45/6+BlAO0b7yTvEFxojJUdM9XVd8/Z26j8GVe//obR9HeLStNmoHQV3Rz5o55x+9nOolgN17sMD8prnEIPij4W2ryuJJIXZIVUSkTutk+puVVgziN2as6FxkVBnq8j7oTF6GFYeBARrcHfscu62g6Dbeq+kWRdNY4KD27AUWARhM17l57OWU0AKJaWjGbAcmuMXWmcVjiGfQyEonTBnFuGlph7FzhHr+IQtGcfb6rXaaaW8Q23cQfTIaEO/GatvFd63umBqdEKhNmcDTHE2inXjoeYZpWPKMvD1Wjl9hK8Fwk7WIv7/8JBsIcMEAAA</trigger_inputs>
+    <trigger_outputs/>
+    <trigger_type>record_create</trigger_type>
+  </sys_hub_trigger_instance_v2>
+  <sys_hub_action_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN8ef65c3d34a84fd3a2003bacd994e00b"/>
+  <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8ef65c3d34a84fd3a2003bacd994e00b</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_hub_action_instance_v2_8ef65c3d34a84fd3a2003bacd994e00b</sys_update_name>
+    <action_type>c1806bf4a70323008299b39f087901cb</action_type>
+    <action_type_parent>c1806bf4a70323008299b39f087901cb</action_type_parent>
+    <active>true</active>
+    <comment/>
+    <display_text/>
+    <flow>26b146fdb94d445cb483f9ed80f2bd0d</flow>
+    <generation_source/>
+    <order>2</order>
+    <parent_ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</parent_ui_id>
+    <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+    <ui_id>8ef65c3d-34a8-4fd3-a200-3bacd994e00b</ui_id>
+    <updation_source/>
+    <values>H4sIAAAAAAAAA7WTTU/DMAyG/0qUc1WVHTjsNrgjxAEJIRQ5ibcF2qQ4zkpV9b+jfQBdB1OR4JjIiZ/ndfLYSQ8Vyrlk0CWq3SKTGyjTdvNNzWazoigulQb/4rwqFOFrwsgyk9bFuoT2fkptNORqXhh2G5TzJZQRM1kDQYWMJOed5LYeYfR99knXACNVQC8KK3DlFyJTwjHKfm9ySx1CieCP+sFaxaSf0fAgjRtsxNXObSXu9mqi664JgdGqi9wkIvSc+1RppL4XixjdyqMVHMRDSKeZ/cGNkzUjk/OrsaUOth0oLoTHRugDUkTaOIPiMEexhig0ohcwwGhDysVtiRC3hRuHjQBvRU3BYIzCcX7q/V9tJoex5qo8ioLQBLKDJL4ZQ9+fmvxUNpnEBpMq9KycHc+Gw3me/CMfFZZLZ5Dy3eeYiHnu9O8f1dM7yDAS9koEAAA=</values>
+  </sys_hub_action_instance_v2>
+  <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ef65c3d34a84fd3a2003bacd994e00b"/>
+  <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=26b146fdb94d445cb483f9ed80f2bd0d^sys_idNOT IN4eae962203e0481499ca2c111b63d07a"/>
+  <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4eae962203e0481499ca2c111b63d07a</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_hub_flow_logic_instance_v2_4eae962203e0481499ca2c111b63d07a</sys_update_name>
+    <comment/>
+    <flow>26b146fdb94d445cb483f9ed80f2bd0d</flow>
+    <logic_definition>af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+    <order>1</order>
+    <ui_id>4eae9622-03e0-4814-99ca-2c111b63d07a</ui_id>
+    <values>H4sIAAAAAAAAA52PSwvCMBCE/8uei+A1NxEPPfgAiyBSyppsdTFNyiZVSsh/l/oAz952vxl2ZhP4IfZDDJVfhMAXB+pUF3BHYTxbCu/VkObA3lUTK93k/wijw471L3p4ubXWP34Zf+cEbEABFOCwI1CgvTMc2TuYQu0wsZSWQhjJNPOZHkTIxRm+ypFpfNuyJsm53G+21Wq9q45QgOHQWxwP/1/QV7ZG6PN/j4IdRRJQKRcQtHAfFzrynUC1aAPlOj8BTjpprTwBAAA=</values>
+  </sys_hub_flow_logic_instance_v2>
+  <sys_hub_flow_snapshot action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d33cf7e50f08d310d4a26ac530d1b246</sys_id>
+    <sys_scope display_value="x_2220006_bankin_0">c546332d0fc4d310d4a26ac530d1b225</sys_scope>
+    <sys_update_name>sys_hub_flow_snapshot_d33cf7e50f08d310d4a26ac530d1b246</sys_update_name>
+    <access>public</access>
+    <active>false</active>
+    <allow_high_security_roles>false</allow_high_security_roles>
+    <annotation/>
+    <attributes/>
+    <callable_by_client_api>false</callable_by_client_api>
+    <category/>
+    <description/>
+    <flow_priority>MEDIUM</flow_priority>
+    <label_cache>[{"name":"Created_1.current.assigned_officer","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer","type":"reference","base_type":"reference","usedInstances":{"4eae9622-03e0-4814-99ca-2c111b63d07a":["condition"]},"attributes":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Number","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_subject"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record","type":"reference","base_type":"reference","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_officer.email","label":"Trigger - Record Created➛x_2220006_bankin_0_request Record➛Assigned Officer➛Email","type":"string","base_type":"string","usedInstances":{"8ef65c3d-34a8-4fd3-a200-3bacd994e00b":["ah_to"]},"attributes":{}}]</label_cache>
+    <master>true</master>
+    <name>Notify Assigned Officer on New Request</name>
+    <natlang/>
+    <outputs/>
+    <parent_flow>26b146fdb94d445cb483f9ed80f2bd0d</parent_flow>
+    <remote_trigger_id/>
+    <run_as>system</run_as>
+    <run_with_roles/>
+    <sc_callable>false</sc_callable>
+    <status>draft</status>
+    <sys_policy/>
+    <type>flow</type>
+    <version>2</version>
+  </sys_hub_flow_snapshot>
 </record_update>
